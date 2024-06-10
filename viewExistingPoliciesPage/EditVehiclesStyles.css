@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+	background-color: #f2f2f2;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.title-box {
+    border: 3px solid #ccc; /* Border style */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding around the title */
+    margin-bottom: 20px; /* Add space below the title */
+}
+
+.title {
+    font-size: 24px;
+    color: #333; /* Adjust the color as needed */
+    margin-left: 170px;
+    margin-bottom: 20px; /* Add space below the title */
+}
+
+
+.left img {
+    max-width: 100%;
+    height: auto;
+	
+    margin-left: 200px; /* Adjust the margin-left value to move the image more to the right */
+	border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1); /* Shadow */
+
+}
+
+.right {
+    width: 40%;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"]{
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* This will make the corners rounded */
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+
+select {
+    width: 72.5%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* This will make the corners rounded */
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+input[type="checkbox"] {
+    margin-top: 5px;
+    border-radius: 5px; /* Rounded corners for checkbox */
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+button {
+    width: 72.5%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+button:hover {
+    background-color: #0056b3;
+}

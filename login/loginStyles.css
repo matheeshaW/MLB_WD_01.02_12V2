@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+body{
+    background-image : url("login.jpg");
+    background-repeat : no-repeat;
+    background-size: cover;
+    }
+
+fieldset{
+    height: 75%;
+    width: 50%;
+    border-style: hidden;
+}
+
+h1{
+    color : white;
+    font-family: Arial;
+}
+
+h3{
+    color: black;
+    
+}
+
+input[type=email], input[type=password]  {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color:black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 10%;
+}
+
+div{
+    align-items: center;
+}

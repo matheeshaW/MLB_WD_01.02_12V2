@@ -1,0 +1,72 @@
+
+.top-buttons {
+    position: absolute;
+    top: 150px;
+    right: 20px;
+    z-index: 999; /* Ensure buttons are above other content */
+}
+
+.top-buttons button {
+    background-color: #4CAF50; /* Green background */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:50px;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #827d70;
+}
+
+h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #827d70;
+}
+
+
+.image-container {
+    margin-right: 150px; /* Add space between image and description */
+}
+
+#image {
+    max-width: 900px; /* Set max-width for the image */
+    border-radius: 10px; /* Add rounded borders */
+}
+
+
+.part1 {
+   
+    display: flex; /* Use flexbox for part1 */
+    min-height: 73vh;
+	margin-left: 100px;
+	margin-top : 100px;
+	 
+
+}
+
+.part2 {
+    width: 540px;
+    height: 630px;
+    float: right;
+	
+}
+
